@@ -1,7 +1,19 @@
 services:
+  #  mongo: (if you want to use local mongo instance, uncomment this section)
+  #    image: mongo:7.0
+  #    restart: unless-stopped
+  #    volumes:
+  #      - mongo-data:/data/db
+  #    ports:
+  #      - "27017:27017"
+
   api:
     build: ./fastapi
+    depends_on:
+      - mongo
     env_file:
       - ./fastapi/.env
     ports:
       - "8000:8000"
+#volumes:
+#  mongo-data:
