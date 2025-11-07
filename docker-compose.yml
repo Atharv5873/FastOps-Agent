@@ -1,0 +1,7 @@
+services:
+  api:
+    build: ./fastapi
+    env_file:
+      - ./fastapi/.env
+    ports:
+      - "8000:8000"
