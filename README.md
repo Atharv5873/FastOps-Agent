@@ -1,4 +1,15 @@
 # FastOps-Agent
+A **cloud-native DevOps automation and monitoring platform** built using:
+
+![FastAPI](https://img.shields.io/badge/FastAPI-109989?style=for-the-badge&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
+It provides REST APIs for collecting and storing system metrics from distributed agents, automates server management tasks, and runs on a scalable multi-node Docker Swarm cluster.
+The project demonstrates end-to-end DevOps skills — containerization, orchestration, API design, cloud deployment, and secure configuration management using MongoDB Atlas.
+
 ## Local Prototype (FastAPI + MongoDB + Docker Compose)
 
 ---
